@@ -3,16 +3,12 @@ package com.cai.newc.ui.fragment;
 import android.graphics.Color;
 import android.support.v4.view.ViewPager;
 import android.util.DisplayMetrics;
-
 import android.util.TypedValue;
-
 
 import com.cai.newc.R;
 import com.cai.newc.adapter.HomeTabAdapter;
 import com.cai.newc.base.BaseFragment;
 import com.cai.newc.ui.view.PagerSlidingTabStrip;
-
-import java.util.List;
 
 import butterknife.Bind;
 
@@ -29,7 +25,7 @@ public class HomeFragment extends BaseFragment{
     HomeTabAdapter tabAdapter;
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_login;
+        return R.layout.fragment_home;
     }
 
     @Override
