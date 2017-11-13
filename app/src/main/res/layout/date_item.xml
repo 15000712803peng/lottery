@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#D9DFE5"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:padding="9dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="#030634"
+        android:text="2017-9-29  星期五"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
