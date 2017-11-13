@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="齐达内执教皇马20个月拿到7个冠军，这样的执教能力到底有多恐怖"
+            android:textColor="#030634"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/tab_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+        <TextView
+            android:textSize="15sp"
+            android:text="举个例子，如果一个中国球员在联赛严重犯规，造成比较恶劣的影响大家都声讨。 你是足协官员或者体育总局官员你怎么看？官员会说要净…"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="13sp"
+            android:text="2983 赞 · 765 评论 · 2 小时前 "
+            android:layout_marginTop="12dp"
+            android:textColor="#9EA9B7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    J<View
+    android:background="#ebedf0"
+    android:layout_width="match_parent"
+    android:layout_height="16sp"/>
+
+</LinearLayout>
