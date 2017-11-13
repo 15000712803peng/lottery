@@ -19,8 +19,9 @@ import com.cai.newc.ui.view.MyTabHost;
 import butterknife.Bind;
 
 /**
- * Created by Administrator on 2017/11/11 0011.
+ * Created by Administrator on 2017/11/10
  */
+
 
 public class HomeActivity extends BaseActivity{
     @Bind(R.id.tab_host)

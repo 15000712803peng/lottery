@@ -14,6 +14,10 @@ import rx.Subscription;
 import rx.subscriptions.CompositeSubscription;
 
 
+/**
+ * Created by Administrator on 2017/11/10
+ */
+
 public abstract class BaseFragment extends Fragment {
 
     protected View mRootView;

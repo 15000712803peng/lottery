@@ -9,7 +9,7 @@ import com.cai.newc.msg.SafeSender;
 import butterknife.ButterKnife;
 
 /**
- * Created by Administrator on 2017/11/10 0010.
+ * Created by Administrator on 2017/11/10
  */
 
 public abstract  class BaseActivity extends FragmentActivity implements SafeSender.OnMessageReceiver{

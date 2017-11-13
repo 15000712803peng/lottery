@@ -5,9 +5,6 @@ import android.os.Message;
 
 import java.lang.ref.WeakReference;
 
-/**
- * Created by Administrator on 2017/11/11 0011.
- */
 
 public class SafeSender extends Handler{
 
