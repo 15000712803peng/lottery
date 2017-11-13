@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+  <ImageView
+      android:paddingTop="34dp"
+      android:paddingLeft="12dp"
+      android:paddingRight="120dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@mipmap/icon_return"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="45dp"
+        android:text="输入手机号"
+        android:textColor="#030634"
+        android:textSize="28dp"/>
+
+    <LinearLayout
+        android:paddingTop="105dp"
+        android:paddingLeft="37dp"
+        android:paddingRight="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+         <TextView
+             android:gravity="left|center_vertical"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="+86 |"
+             android:textSize="16dp"
+             android:textColor="#030634"/>
+            <EditText
+            android:paddingLeft="20dp"
+            style="@style/common_editText_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="13916263854"
+            android:textSize="28dp"
+            android:inputType="numberPassword"
+            />
+        </LinearLayout>
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D9DFE5"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/shape_common_bule_btn_pressed"
+            android:gravity="center"
+            android:paddingBottom="17dp"
+            android:paddingTop="17dp"
+            android:text="发送验证码"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
