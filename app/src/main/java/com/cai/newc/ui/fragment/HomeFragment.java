@@ -3,8 +3,9 @@ package com.cai.newc.ui.fragment;
 import android.graphics.Color;
 import android.support.v4.view.ViewPager;
 import android.util.DisplayMetrics;
-import android.util.Log;
+
 import android.util.TypedValue;
+
 
 import com.cai.newc.R;
 import com.cai.newc.adapter.HomeTabAdapter;
@@ -21,7 +22,6 @@ import butterknife.Bind;
 
 public class HomeFragment extends BaseFragment{
 
-
     @Bind(R.id.tabs)
     PagerSlidingTabStrip homeTabs;
     @Bind(R.id.pager)
@@ -33,6 +33,7 @@ public class HomeFragment extends BaseFragment{
     }
 
     @Override
+
     protected void loadData() {
         super.loadData();
         initTabs();
@@ -42,8 +43,7 @@ public class HomeFragment extends BaseFragment{
         DisplayMetrics dm = getResources().getDisplayMetrics();
         homePager.setAdapter(new HomeTabAdapter(getChildFragmentManager()));
         homeTabs.setViewPager(homePager);
-        homePager.setCurrentItem(1);
-
+        homePager.setCurrentItem(0);
         homeTabs.setDividerColor(Color.TRANSPARENT);
         homeTabs.setUnderlineHeight((int) TypedValue.applyDimension(
                 TypedValue.COMPLEX_UNIT_DIP, 3, dm));
