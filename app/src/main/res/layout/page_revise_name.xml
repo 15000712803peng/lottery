@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <include layout="@layout/back_title"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="#F9FAFB"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            style="@style/common_editText_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="22dp"
+            android:paddingBottom="22dp"
+            android:paddingLeft="16dp"
+            android:hint="请输入新的用户名"
+            android:textSize="15dp"
+            android:textColor="#030634"
+            android:textColorHint="#9EA9B7"
+            android:inputType="text"/>
+        <ImageView
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:paddingRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_delete"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9EA9B7"
+        android:textSize="11dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="#F9FAFB"
+        android:text="*用户名30天内只可修改一次"/>
+</LinearLayout>
