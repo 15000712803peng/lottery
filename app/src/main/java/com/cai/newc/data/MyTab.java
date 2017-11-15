@@ -5,6 +5,7 @@ import com.cai.newc.R;
 import com.cai.newc.base.BaseFragment;
 import com.cai.newc.ui.fragment.DiscFragment;
 import com.cai.newc.ui.fragment.HomeFragment;
+import com.cai.newc.ui.fragment.MineFragment;
 
 public enum  MyTab {
 
@@ -18,7 +19,7 @@ public enum  MyTab {
             BaseFragment.class),
 
     MINE(4, R.string.mine, R.drawable.tab_mine,
-            BaseFragment.class);
+            MineFragment.class);
 
     private int idx;
     private int resName;
