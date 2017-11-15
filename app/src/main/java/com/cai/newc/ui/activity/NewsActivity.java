@@ -14,6 +14,7 @@ import com.cai.newc.model.Comment;
 import com.cai.newc.model.ImageNews;
 import com.cai.newc.model.NewsBase;
 import com.cai.newc.model.TextNews;
+import com.cai.newc.ui.view.BottomShareDialog;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -96,5 +97,9 @@ public class NewsActivity extends BaseActivity{
                     break;
             }
         }
+    }
+
+    public void share(View view){
+        new BottomShareDialog(this).builder().show();
     }
 }

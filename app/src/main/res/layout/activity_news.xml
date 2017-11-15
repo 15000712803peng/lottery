@@ -30,11 +30,13 @@
                 <RelativeLayout
                     android:layout_centerVertical="true"
                     android:clickable="true"
+                    android:onClick="share"
                     android:layout_alignParentRight="true"
                     android:padding="16dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <ImageView
+
                         android:src="@mipmap/icon_share"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
