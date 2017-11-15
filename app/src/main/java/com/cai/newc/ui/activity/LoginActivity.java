@@ -3,6 +3,7 @@ package com.cai.newc.ui.activity;
 import android.content.Intent;
 import android.os.Message;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.cai.newc.R;
@@ -16,7 +17,7 @@ import butterknife.Bind;
 
 public class LoginActivity extends BaseActivity{
     @Bind(R.id.btn_login)
-    TextView loginText;
+    Button loginText;
     @Bind(R.id.txt_forget_pwd)
     TextView forgetPwdText;
     @Override
