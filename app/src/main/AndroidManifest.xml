@@ -22,6 +22,10 @@
         <activity android:name=".ui.activity.ForgetPwdActivity"
             android:launchMode="singleTop"></activity>
 
+        <activity android:name=".ui.activity.NewsActivity"
+            android:launchMode="singleTop"></activity>
+
+
     </application>
 
 
