@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--通用按钮的选择器-->
+    <item android:drawable="@drawable/shape_common_bule_btn_pressed" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/shape_common_gary_btn_normal"></item>
+</selector>
