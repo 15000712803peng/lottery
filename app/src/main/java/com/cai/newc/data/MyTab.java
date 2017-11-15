@@ -3,6 +3,7 @@ package com.cai.newc.data;
 
 import com.cai.newc.R;
 import com.cai.newc.base.BaseFragment;
+import com.cai.newc.ui.fragment.AnalyzeFragment;
 import com.cai.newc.ui.fragment.DiscFragment;
 import com.cai.newc.ui.fragment.HomeFragment;
 import com.cai.newc.ui.fragment.MineFragment;
@@ -16,7 +17,7 @@ public enum  MyTab {
             DiscFragment.class),
 
     ANALYSIS(3, R.string.analysis, R.drawable.tab_analysis,
-            BaseFragment.class),
+            AnalyzeFragment.class),
 
     MINE(4, R.string.mine, R.drawable.tab_mine,
             MineFragment.class);
