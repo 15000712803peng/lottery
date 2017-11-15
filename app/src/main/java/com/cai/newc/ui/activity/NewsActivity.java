@@ -15,10 +15,8 @@ import com.cai.newc.model.ImageNews;
 import com.cai.newc.model.NewsBase;
 import com.cai.newc.model.TextNews;
 import com.cai.newc.ui.view.BottomShareDialog;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import butterknife.Bind;
 
 /**
