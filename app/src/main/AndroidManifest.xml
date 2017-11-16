@@ -33,6 +33,9 @@
 
         <activity android:name=".ui.activity.GetCodeActivity"
                   android:launchMode="singleTop"></activity>
+
+        <activity android:name=".ui.activity.PersonalActivity"
+                  android:launchMode="singleTop"></activity>
     </application>
 
 
