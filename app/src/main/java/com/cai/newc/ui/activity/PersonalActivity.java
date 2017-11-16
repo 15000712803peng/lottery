@@ -22,7 +22,7 @@ public class PersonalActivity extends BaseActivity {
     TextView titleRight;
     @Override
     public int layout() {
-        return R.layout.page_revise_phone_number;
+        return R.layout.page_personal_data;
     }
 
     @Override
@@ -32,8 +32,7 @@ public class PersonalActivity extends BaseActivity {
 
     @Override
     public void initViews() {
-        titleText.setText("修改手机号");
-        titleRight.setText("保存");
+        titleText.setText("个人资料");
     }
 
     @Override
