@@ -328,6 +328,7 @@
                     android:layout_height="wrap_content">
 
                     <LinearLayout
+                        android:id="@+id/ll_opinion"
                         android:gravity="center_vertical"
                         android:padding="16dp"
                         android:orientation="horizontal"

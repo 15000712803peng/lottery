@@ -5,41 +5,54 @@
               android:layout_height="match_parent"
     android:background="#F9FAFB">
     <include layout="@layout/back_title"/>
+
     <LinearLayout
-        android:paddingTop="22dp"
-        android:paddingBottom="22dp"
-        android:background="#FFFFFF"
-        android:layout_marginTop="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:paddingBottom="22dp"
+        android:paddingTop="22dp">
+
         <TextView
-            android:paddingLeft="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="15dp"
             android:text="提示范围"
-            android:textSize="15dp"
             android:textColor="#030634"
-            android:paddingRight="15dp"/>
+            android:textSize="15dp"/>
+
         <View
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"/>
-        <TextView
-            android:paddingRight="12dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:id="@+id/ll_range"
+            android:gravity="center_horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="全部比赛"
-            android:textSize="14dp"
-            android:textColor="#9EA9B7"/>
-        <ImageView
-            android:layout_gravity="center"
-            android:layout_marginRight="16dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@mipmap/icon_in"
-            />
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="12dp"
+                android:text="全部比赛"
+                android:textColor="#9EA9B7"
+                android:textSize="14dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="16dp"
+                android:background="@mipmap/icon_in"
+                />
+        </LinearLayout>
+
     </LinearLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"

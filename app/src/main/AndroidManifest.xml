@@ -36,6 +36,15 @@
 
         <activity android:name=".ui.activity.PersonalActivity"
                   android:launchMode="singleTop"></activity>
+
+        <activity android:name=".ui.activity.OpinionActivity"
+                  android:launchMode="singleTop"></activity>
+
+        <activity android:name=".ui.activity.OpinionHistoryActivity"
+                  android:launchMode="singleTop"></activity>
+
+        <activity android:name=".ui.activity.RangeActivity"
+                  android:launchMode="singleTop"></activity>
     </application>
 
 

@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import com.cai.newc.R;
 import com.cai.newc.base.BaseFragment;
+import com.cai.newc.ui.activity.OpinionActivity;
 import com.cai.newc.ui.activity.PersonalActivity;
 import com.cai.newc.ui.activity.SettingActivity;
 
@@ -19,6 +20,8 @@ public class MineFragment extends BaseFragment{
     LinearLayout setting;
     @Bind(R.id.ll_mine)
     LinearLayout mine;
+    @Bind(R.id.ll_opinion)
+    LinearLayout opinion;
     @Override
     protected int getLayoutId() {
         return R.layout.fragment_mine;
@@ -36,6 +39,12 @@ public class MineFragment extends BaseFragment{
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(),PersonalActivity.class));
+            }
+        });
+        opinion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),OpinionActivity.class));
             }
         });
     }
