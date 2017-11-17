@@ -4,5 +4,6 @@
     <string name="discover">发现</string>
     <string name="analysis">分析</string>
     <string name="mine">我的</string>
+    <string name="rc_send">发送</string>
 
 </resources>
