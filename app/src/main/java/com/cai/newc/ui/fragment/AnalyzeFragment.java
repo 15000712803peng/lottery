@@ -13,6 +13,6 @@ public class AnalyzeFragment extends BaseFragment {
 //        return R.layout.activity_enter_phone_number;
 //        return R.layout.activity_forget_password;
 //        return R.layout.activity_get_code;
-        return R.layout.page_setting;
+        return R.layout.page_opinion;
     }
 }
