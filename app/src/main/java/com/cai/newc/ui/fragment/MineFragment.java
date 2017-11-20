@@ -7,6 +7,7 @@ import com.cai.newc.R;
 import com.cai.newc.base.BaseFragment;
 import com.cai.newc.ui.activity.OpinionActivity;
 import com.cai.newc.ui.activity.PersonalActivity;
+import com.cai.newc.ui.activity.PointsActivity;
 import com.cai.newc.ui.activity.SettingActivity;
 
 import butterknife.Bind;
@@ -22,6 +23,8 @@ public class MineFragment extends BaseFragment{
     LinearLayout mine;
     @Bind(R.id.ll_opinion)
     LinearLayout opinion;
+    @Bind(R.id.ll_points)
+    LinearLayout points;
     @Override
     protected int getLayoutId() {
         return R.layout.fragment_mine;
@@ -45,6 +48,12 @@ public class MineFragment extends BaseFragment{
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(),OpinionActivity.class));
+            }
+        });
+        points.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),PointsActivity.class));
             }
         });
     }

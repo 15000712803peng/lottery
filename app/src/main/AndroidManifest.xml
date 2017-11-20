@@ -46,6 +46,15 @@
 
         <activity android:name=".ui.activity.RangeActivity"
                   android:launchMode="singleTop"></activity>
+
+        <activity android:name=".ui.activity.ReviseNameActivity"
+                  android:launchMode="singleTop"></activity>
+
+        <activity android:name=".ui.activity.ReviseNumberActivity"
+                  android:launchMode="singleTop"></activity>
+
+        <activity android:name=".ui.activity.PointsActivity"
+                  android:launchMode="singleTop"></activity>
     </application>
 
 

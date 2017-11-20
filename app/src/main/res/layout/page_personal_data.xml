@@ -41,90 +41,106 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="#D9DFE5"/>
+
     <LinearLayout
-        android:gravity="center"
-        android:background="#FFFFFF"
+        android:id="@+id/ll_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
         android:orientation="horizontal">
+
         <TextView
-            android:paddingTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:paddingBottom="22dp"
             android:paddingLeft="16dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:paddingTop="22dp"
             android:text="用户名"
-            android:textSize="15dp"
             android:textColor="#030634"
-            android:paddingRight="15dp"/>
+            android:textSize="15dp"/>
+
         <View
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
         <LinearLayout
-            android:layout_marginRight="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
             android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="不赢就要输个痛快"
-                android:textSize="14dp"
-                android:textColor="#9EA9B7"/>
+                android:textColor="#9EA9B7"
+                android:textSize="14dp"/>
+
             <ImageView
-                android:paddingLeft="12dp"
-                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
                 android:src="@mipmap/icon_in"/>
         </LinearLayout>
 
     </LinearLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="#D9DFE5"/>
+
     <LinearLayout
-        android:gravity="center"
-        android:background="#FFFFFF"
+        android:id="@+id/ll_revise_phone_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
         android:orientation="horizontal">
+
         <TextView
-            android:paddingTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:paddingBottom="22dp"
             android:paddingLeft="16dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:paddingTop="22dp"
             android:text="手机号码"
-            android:textSize="15dp"
             android:textColor="#030634"
-            android:paddingRight="15dp"/>
+            android:textSize="15dp"/>
+
         <View
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
         <LinearLayout
-            android:paddingRight="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingRight="16dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="13916263854"
-                android:textSize="14dp"
-                android:textColor="#9EA9B7"/>
+                android:textColor="#9EA9B7"
+                android:textSize="14dp"/>
+
             <ImageView
-                android:paddingLeft="12dp"
-                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
                 android:src="@mipmap/icon_in"/>
         </LinearLayout>
 
     </LinearLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"

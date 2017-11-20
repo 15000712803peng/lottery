@@ -1,7 +1,10 @@
 package com.cai.newc.ui.activity;
 
+import android.content.Intent;
 import android.os.Message;
+import android.view.View;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.cai.newc.R;
@@ -20,6 +23,10 @@ public class PersonalActivity extends BaseActivity {
     TextView titleText;
     @Bind(R.id.text_title_right)
     TextView titleRight;
+    @Bind(R.id.ll_name)
+    LinearLayout reviseName;
+    @Bind(R.id.ll_revise_phone_number)
+    LinearLayout reviseNumber;
     @Override
     public int layout() {
         return R.layout.page_personal_data;
@@ -33,8 +40,20 @@ public class PersonalActivity extends BaseActivity {
     @Override
     public void initViews() {
         titleText.setText("个人资料");
-    }
+        reviseName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PersonalActivity.this,ReviseNameActivity.class));
+            }
+        });
+        reviseNumber.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PersonalActivity.this,ReviseNumberActivity.class));
+            }
+        });
 
+    }
     @Override
     public void onMessage(Message msg) {
 
