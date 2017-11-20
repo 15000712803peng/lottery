@@ -146,6 +146,7 @@
         android:layout_height="1dp"
         android:background="#D9DFE5"/>
     <LinearLayout
+        android:id="@+id/ll_password"
         android:gravity="center"
         android:background="#FFFFFF"
         android:layout_width="match_parent"

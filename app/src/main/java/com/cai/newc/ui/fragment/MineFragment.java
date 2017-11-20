@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import com.cai.newc.R;
 import com.cai.newc.base.BaseFragment;
+import com.cai.newc.ui.activity.IcebergActivity;
 import com.cai.newc.ui.activity.OpinionActivity;
 import com.cai.newc.ui.activity.PersonalActivity;
 import com.cai.newc.ui.activity.PointsActivity;
@@ -25,6 +26,8 @@ public class MineFragment extends BaseFragment{
     LinearLayout opinion;
     @Bind(R.id.ll_points)
     LinearLayout points;
+    @Bind(R.id.ll_iceberg_recharge)
+    LinearLayout iceberg;
     @Override
     protected int getLayoutId() {
         return R.layout.fragment_mine;
@@ -54,6 +57,12 @@ public class MineFragment extends BaseFragment{
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(),PointsActivity.class));
+            }
+        });
+        iceberg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),IcebergActivity.class));
             }
         });
     }

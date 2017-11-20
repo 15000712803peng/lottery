@@ -27,6 +27,8 @@ public class PersonalActivity extends BaseActivity {
     LinearLayout reviseName;
     @Bind(R.id.ll_revise_phone_number)
     LinearLayout reviseNumber;
+    @Bind(R.id.ll_password)
+    LinearLayout password;
     @Override
     public int layout() {
         return R.layout.page_personal_data;
@@ -50,6 +52,12 @@ public class PersonalActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(PersonalActivity.this,ReviseNumberActivity.class));
+            }
+        });
+        password.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PersonalActivity.this,RevisePasswordActivity.class));
             }
         });
 

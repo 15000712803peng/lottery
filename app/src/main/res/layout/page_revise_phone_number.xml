@@ -6,37 +6,37 @@
     android:background="#F9FAFB">
     <include layout="@layout/back_title"/>
     <LinearLayout
-        android:background="#FFFFFF"
-        android:layout_marginTop="12dp"
+    android:background="#FFFFFF"
+    android:layout_marginTop="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:paddingLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机号"
+        android:textSize="15dp"
+        android:textColor="#030634"
+        android:paddingRight="15dp"/>
+    <EditText
+        style="@style/common_editText_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:paddingLeft="16dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="手机号"
-            android:textSize="15dp"
-            android:textColor="#030634"
-            android:paddingRight="15dp"/>
-        <EditText
-            style="@style/common_editText_style"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="22dp"
-            android:paddingBottom="22dp"
-            android:hint="13916263854"
-            android:textSize="15dp"
-            android:textColor="#030634"
-            android:textColorHint="#9EA9B7"
-            android:inputType="text"/>
-        <ImageView
-            android:layout_gravity="center"
-            android:paddingRight="16dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/icon_delete"/>
-    </LinearLayout>
+        android:paddingTop="22dp"
+        android:paddingBottom="22dp"
+        android:hint="13916263854"
+        android:textSize="15dp"
+        android:textColor="#030634"
+        android:textColorHint="#9EA9B7"
+        android:inputType="text"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:paddingRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_delete"/>
+</LinearLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"

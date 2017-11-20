@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/back_title"/>
+    <ScrollView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="当前剩余"
+                        android:textColor="#030634"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tv_current_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:text="66冰点"
+                        android:textColor="#0099FA"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="冰点不能提现或退款"
+                    android:textColor="#9EA9B7"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:paddingBottom="6dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="6dp"
+                android:text="选择充值金额"
+                android:textColor="#4D6786"
+                android:textSize="10sp" />
+
+            <com.cai.newc.ui.view.MyRadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/selector_recharge_number"
+                            android:button="@null"
+                            android:checked="true"
+                            android:gravity="center"
+                            android:paddingBottom="10dp"
+                            android:text="6元"
+                            android:textColor="#0099FA"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:text="60冰点"
+                            android:textColor="#9EA9B7"
+                            android:textSize="10sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/selector_recharge_number"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:paddingBottom="10dp"
+                            android:text="66元"
+                            android:textColor="#030634"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:text="660冰点"
+                            android:textColor="#9EA9B7"
+                            android:textSize="10sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/selector_recharge_number"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:paddingBottom="10dp"
+                            android:text="88元"
+                            android:textColor="#030634"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:text="880冰点"
+                            android:textColor="#9EA9B7"
+                            android:textSize="10sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/selector_recharge_number"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:paddingBottom="10dp"
+                            android:text="666元"
+                            android:textColor="#030634"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:text="6660冰点"
+                            android:textColor="#9EA9B7"
+                            android:textSize="10sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/selector_recharge_number"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:paddingBottom="10dp"
+                            android:text="888元"
+                            android:textColor="#030634"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="4dp"
+                            android:text="8880冰点"
+                            android:textColor="#9EA9B7"
+                            android:textSize="10sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1">
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </com.cai.newc.ui.view.MyRadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:paddingTop="8dp"
+                android:text="充值说明："
+                android:textColor="#4D6786"
+                android:textSize="10sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="3dp"
+                    android:text="1、苹果公司规定，虚拟商品必须使用苹果系统支付购买，充值金额不可自定义，且不能用于安卓、网页等其他平台。"
+                    android:textColor="#4D6786"
+                    android:textSize="9sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="3dp"
+                    android:text="2、冰点充值成功后无法退款，不可提现。"
+                    android:textColor="#4D6786"
+                    android:textSize="9sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:paddingTop="3dp"
+                        android:text="3、使用苹果系统充值可参看"
+                        android:textColor="#4D6786"
+                        android:textSize="9sp" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="3dp"
+                            android:text="充值流程说明"
+                            android:textColor="#0099FA"
+                            android:textSize="9sp" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#0099FA"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:paddingTop="3dp"
+                        android:text="4、如存在无法充值、充值失败等问题，可关注“"
+                        android:textColor="#4D6786"
+                        android:textSize="9sp" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="3dp"
+                            android:text="冰山体育"
+                            android:textColor="#0099FA"
+                            android:textSize="9sp" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#0099FA"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:paddingTop="3dp"
+                        android:text="”微信公众号，一站式解决您的问"
+                        android:textColor="#4D6786"
+                        android:textSize="9sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#0099FA"
+        android:gravity="center"
+        android:text="立即充值"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+</RelativeLayout>
