@@ -53,7 +53,7 @@
                     android:layout_gravity="center_horizontal"
                     android:paddingBottom="28dp"
                     android:text="139****3854"
-                    android:textColor="#030634"
+                    android:textColor="#4D6786"
                     android:textSize="12sp"/>
             </LinearLayout>
 
@@ -215,13 +215,13 @@
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="5dp"
                     android:background="@drawable/blue_corner"
-                    android:paddingBottom="7dp"
-                    android:paddingLeft="36dp"
-                    android:paddingRight="36dp"
-                    android:paddingTop="7dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="28dp"
+                    android:paddingRight="28dp"
+                    android:paddingTop="5dp"
                     android:text="开通"
                     android:textColor="@color/white"
-                    android:textSize="16sp"/>
+                    android:textSize="14sp"/>
 
             </RelativeLayout>
 
