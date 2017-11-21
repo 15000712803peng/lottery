@@ -2,166 +2,175 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/tonyan/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/rxjava-1.1.5_612ef661c0df10d5e40437d903ccf51f727be67c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.android/build-cache/58195c525377c4529fa105db7f8d5efd65717bfd/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/classes_3073a7cc8e9cbe4e6a58ac9a564eaa2af5c05c31.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_398078b8b9eb75f74a258b410e48ffddace7688b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/okio-1.8.0_79f53ab2ebaa6775e93cb515ea9312b653c1123d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_bd8090f077f04a222992d5927ef6ce881825db79.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_2b70e15559089901d8689da9593ec9d52d68c0c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/AndroidSpace/projects/lottery/imlib/build/intermediates/bundles/default/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="52036fe8cade7c418a120dedd76dc2c2106b89bb">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/classes_1fecb36bce963d7a2c99fe5d42e35a95b9d3e81e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.android/build-cache/3685ad2fce746d640befa4273c6147f98b33ac93/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/classes_ee6c12747c0ff5abdb8f8f084e477b863bd83462.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.1.0_aac45a1e0e5d080fc01d7d585ffa10ba3905772f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_b99b77fe2b3c6b857f724454d329b8d8986fe5b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.android/build-cache/c9c745b8abe662a6ce84a1fd93c6913f3cd5a95a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/classes_d64ea586db31f01efbb9d96370be1bf6a9e57a2c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.android/build-cache/354c3df728be20acce401efbdf86a01a15bb4383/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/classes_95617163e2661129da5ddfe252fe6c2d3b73fb43.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.android/build-cache/61eec168c762f22b5a89fde452c6530920a0a54a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/classes_5a5952ba2a66619ec0ee83028a376cae3085176b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.android/build-cache/2e9101eecd0f8058f27c2e3b002bbe8017b4fb58/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/classes_1ff1cca13704f2a72467023b82bc38982b33d41c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.android/build-cache/ae28442cd949bcf61aaec3a08852606a5d09336c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/classes_1f18368b3c899cf77a21fddf29589e7a9c78cbf8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.android/build-cache/dd25c4472a8983707e33f6f0cb7655f9e248696b/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/classes_8ddb128beb86b1ef0d77e0c3d49aef2739420d78.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/.android/build-cache/2054cb6702d13e0725663f20711df8268e5c6517/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/classes_c5936f76fdc1ca4d7996348511a44cc3ae711c07.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tonyan/AndroidSpace/projects/lottery/imlib/build/intermediates/bundles/default/libs/Rong_IMLib_v2_6_11.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\Work\lottery\lottery\imlib\build\intermediates\bundles\default\libs\Rong_IMLib_v2_6_11.jar"
+        jumboMode="true"
         optimize="true"
         revision="27.0.1"
         sha1="f00ce6607013b300d7ace32d790858cd814411f5">
-        <dex dex="/Users/tonyan/AndroidSpace/projects/lottery/app/build/intermediates/pre-dexed/debug/Rong_IMLib_v2_6_11_a28ed22e58e8ef2273e407bedcc6c99f65aad689.jar" />
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\8\Rong_IMLib_v2_6_11_6f2b71c99cbaf293d27734bab37aa26ba9f670be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.1.0_07e8128e38c2eb1d27524599a8a44c4585c27693\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.android\build-cache\147ef3112a97442b80a8c6a33535e19a578dea21\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_df1e74af97c673522db82d444f095e7b030e27d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.android\build-cache\f2e16565016c911bbe89d0182451f9bd3fcb8849\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6b943e88cd75f1abe2f059a9afa4005557f172d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_96b64cbbdad83fabf633485b1c9da63717a4d52e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_cfa7e4f6acdbb5a37cc4fde833ccf160c11355f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.5\ece7b5d0870e66d8226dab6dcf47a2b12afff061\rxjava-1.1.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.5_4e12b3c5ab1bd51d98212465eec445e54d919b62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.android\build-cache\e43a647287fb201c4a6ddf1473aa07d05cbc02d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f375bb855c00ae6e069152daeaa2438258860c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_b9aab0c8a8b6353d2dfbed4f1feae63921697ecb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.android\build-cache\24eb107cbaca7aea4499f8eda35842953e896c84\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bfc7d3cab7c1e965ff80d8413b9ef2cdad5ba9d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_95741382268925dad95588fa3f406b8e110b2545\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Work\lottery\lottery\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="b739b63c197fbc3f48b757ecf64d8c7f1f6f60c5">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_39efb4a1b6b5daa749c1e39c3bf0815396d7a23d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.android\build-cache\3a5f965fb9ada5129b55407e1ea1c6a5c8149e76\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7099c431b55818242ed38c62b08c3728db0c7c6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.android\build-cache\ea5c186acd6ee305b86d379f4d86b88684df2ccf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2249dddae37b81d9800fedc22e350a9cef0dfc93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.android\build-cache\99045824601d7905ae42d55be0d7ac8670481dbc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5079516941695f5ca9661e545bbf47bc8384e369\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.android\build-cache\d5f19cadb45e0ccdc3837775b7c19bd1abc30cc8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1aea8e2859d849101bdb4ab14b2c78da43fcc998\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Work\lottery\lottery\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7e3ee84599ae2979a04838ea683a939ea11fa160\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.android\build-cache\a91bed66b7b323b7bceb928f913495548d30701f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af3613fcb6e36242ab6d299636c3ec081e332805\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sunway\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="D:\Work\lottery\lottery\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_13f87a85b4b96cf1b50d5e6e020998de07a3f718\classes.dex" />
     </item>
 
 </items>
