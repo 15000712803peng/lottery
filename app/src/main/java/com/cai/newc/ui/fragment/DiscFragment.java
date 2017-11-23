@@ -8,9 +8,7 @@ import android.widget.Toast;
 import com.cai.newc.R;
 import com.cai.newc.adapter.NewsAdapter;
 import com.cai.newc.base.BaseFragment;
-import com.cai.newc.live.FakeServer;
-import com.cai.newc.live.LiveKit;
-import com.cai.newc.live.controller.RcLog;
+
 import com.cai.newc.model.NewsModel;
 import com.cai.newc.net.HttpUtil;
 import com.cai.newc.ui.activity.NewsActivity;
@@ -23,8 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.Bind;
-import io.rong.imlib.RongIMClient;
-import io.rong.imlib.model.UserInfo;
+
 
 /**
  * Created by Administrator on 2017/11/13 0013.

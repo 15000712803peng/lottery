@@ -33,7 +33,7 @@
                         android:layout_height="wrap_content"
                         android:text="当前剩余"
                         android:textColor="#030634"
-                        android:textSize="10sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/tv_current_number"
@@ -42,7 +42,7 @@
                         android:layout_marginLeft="6dp"
                         android:text="66冰点"
                         android:textColor="#0099FA"
-                        android:textSize="14sp" />
+                        android:textSize="20sp" />
 
                 </LinearLayout>
 
@@ -52,7 +52,7 @@
                     android:layout_marginTop="8dp"
                     android:text="冰点不能提现或退款"
                     android:textColor="#9EA9B7"
-                    android:textSize="10sp" />
+                    android:textSize="14sp" />
 
             </LinearLayout>
 
@@ -66,7 +66,7 @@
                 android:paddingTop="6dp"
                 android:text="选择充值金额"
                 android:textColor="#4D6786"
-                android:textSize="10sp" />
+                android:textSize="13sp" />
 
             <com.cai.newc.ui.view.MyRadioGroup
                 android:layout_width="match_parent"
@@ -81,7 +81,7 @@
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="60dp"
+                        android:layout_height="80dp"
                         android:layout_marginRight="4dp"
                         android:layout_weight="1">
 
@@ -92,10 +92,10 @@
                             android:button="@null"
                             android:checked="true"
                             android:gravity="center"
-                            android:paddingBottom="10dp"
+                            android:paddingBottom="18dp"
                             android:text="6元"
                             android:textColor="#0099FA"
-                            android:textSize="12sp" />
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -106,13 +106,13 @@
                             android:layout_marginTop="4dp"
                             android:text="60冰点"
                             android:textColor="#9EA9B7"
-                            android:textSize="10sp" />
+                            android:textSize="14sp" />
 
                     </RelativeLayout>
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="60dp"
+                        android:layout_height="80dp"
                         android:layout_marginRight="4dp"
                         android:layout_weight="1">
 
@@ -125,7 +125,7 @@
                             android:paddingBottom="10dp"
                             android:text="66元"
                             android:textColor="#030634"
-                            android:textSize="12sp" />
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -136,7 +136,7 @@
                             android:layout_marginTop="4dp"
                             android:text="660冰点"
                             android:textColor="#9EA9B7"
-                            android:textSize="10sp" />
+                            android:textSize="14sp" />
 
                     </RelativeLayout>
 
@@ -150,7 +150,7 @@
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="60dp"
+                        android:layout_height="80dp"
                         android:layout_marginRight="4dp"
                         android:layout_weight="1">
 
@@ -163,7 +163,7 @@
                             android:paddingBottom="10dp"
                             android:text="88元"
                             android:textColor="#030634"
-                            android:textSize="12sp" />
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -174,13 +174,13 @@
                             android:layout_marginTop="4dp"
                             android:text="880冰点"
                             android:textColor="#9EA9B7"
-                            android:textSize="10sp" />
+                            android:textSize="14sp" />
 
                     </RelativeLayout>
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="60dp"
+                        android:layout_height="80dp"
                         android:layout_marginRight="4dp"
                         android:layout_weight="1">
 
@@ -193,18 +193,7 @@
                             android:paddingBottom="10dp"
                             android:text="666元"
                             android:textColor="#030634"
-                            android:textSize="12sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentBottom="true"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginBottom="10dp"
-                            android:layout_marginTop="4dp"
-                            android:text="6660冰点"
-                            android:textColor="#9EA9B7"
-                            android:textSize="10sp" />
+                            android:textSize="18sp" />
 
                     </RelativeLayout>
 
@@ -218,7 +207,7 @@
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="60dp"
+                        android:layout_height="80dp"
                         android:layout_marginRight="4dp"
                         android:layout_weight="1">
 
@@ -231,7 +220,7 @@
                             android:paddingBottom="10dp"
                             android:text="888元"
                             android:textColor="#030634"
-                            android:textSize="12sp" />
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -242,7 +231,21 @@
                             android:layout_marginTop="4dp"
                             android:text="8880冰点"
                             android:textColor="#9EA9B7"
-                            android:textSize="10sp" />
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="14dp"
+                            android:layout_marginLeft="66dp"
+                            android:layout_marginStart="66dp"
+                            android:text="6660冰点"
+                            android:textColor="#9EA9B7"
+                            android:textSize="14sp" />
 
                     </RelativeLayout>
 
@@ -372,6 +375,6 @@
         android:gravity="center"
         android:text="立即充值"
         android:textColor="#ffffff"
-        android:textSize="14sp" />
+        android:textSize="18sp" />
 
 </RelativeLayout>

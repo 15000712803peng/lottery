@@ -3,8 +3,6 @@ package com.cai.newc.data;
 import android.app.Application;
 import android.content.Context;
 
-import com.cai.newc.live.FakeServer;
-import com.cai.newc.live.LiveKit;
 
 /**
  * Created by Administrator on 2017/11/17 0017.
@@ -18,7 +16,6 @@ public class App extends Application{
     public void onCreate() {
         super.onCreate();
         context = this;
-        LiveKit.init(context, FakeServer.getAppKey());
 
     }
 

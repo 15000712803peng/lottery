@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.cai.newc.R;
 import com.cai.newc.base.BaseActivity;
+import com.cai.newc.net.ApiClient;
 
 import butterknife.Bind;
 
@@ -61,6 +62,10 @@ public class LoginActivity extends BaseActivity {
 
     @Override
     public void onMessage(Message msg) {
+
+    }
+
+    private void login(){
 
     }
 }

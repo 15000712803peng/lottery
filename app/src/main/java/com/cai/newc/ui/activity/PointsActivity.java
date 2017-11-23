@@ -49,7 +49,6 @@ public class PointsActivity extends BaseActivity {
 
     private void loadLevel(int level){
         switch (level){
-
             case LEVEL_ONE:
                 currentLevelText.setText("LV1");
                 nextLevelText.setText("LV2");
